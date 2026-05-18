@@ -24,7 +24,7 @@
     "codex"
   ],
   "bin": {
-    "legalcode": "./dist/index.js"
+    "legalcode": "dist/index.js"
   },
   "files": [
     "dist",
