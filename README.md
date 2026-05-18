@@ -8,10 +8,10 @@ search, fetch, download, local indexing, or Pro MCP workflows.
 
 ## Install
 
-Install from the public GitHub package source:
+Install from the public GitHub package tarball:
 
 ```bash
-npm install -g github:legalcode-md/cli
+npm install -g https://github.com/legalcode-md/cli/archive/refs/heads/main.tar.gz
 legalcode login
 ```
 
