@@ -1,0 +1,12 @@
+{
+  "matter_type": "litigation|transactional|regulatory|advisory|adr|administrative|appeals|ip|class_action|investigation",
+  "jurisdiction": {
+    "primary": "US-NY",
+    "secondary": [],
+    "legal_system": "common_law|civil_law|hybrid"
+  },
+  "mode": "interactive|supervised|autonomous",
+  "research_depth": "quick|standard|deep",
+  "citation_format": "bluebook|oscola|jurisdiction_default",
+  "related_matters": []
+}

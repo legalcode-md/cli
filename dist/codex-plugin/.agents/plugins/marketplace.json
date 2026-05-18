@@ -1,0 +1,32 @@
+{
+  "name": "legalcode",
+  "interface": {
+    "displayName": "Legalcode"
+  },
+  "plugins": [
+    {
+      "name": "legalcode",
+      "source": {
+        "source": "local",
+        "path": "./plugins/legalcode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "counsel",
+      "source": {
+        "source": "local",
+        "path": "./plugins/counsel"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

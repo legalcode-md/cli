@@ -1,0 +1,41 @@
+{
+  "name": "legalcode",
+  "version": "0.1.0",
+  "description": "Legalcode CLI for installing MCP client configuration, Legalcode agent workflows, and authenticated legal source search.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://legalcode.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legalcode-md/cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/legalcode-md/cli/issues"
+  },
+  "keywords": [
+    "legal",
+    "law",
+    "mcp",
+    "legal-research",
+    "case-law",
+    "statutes",
+    "claude-code",
+    "codex"
+  ],
+  "bin": {
+    "legalcode": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE.md",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node dist/index.js"
+  }
+}
