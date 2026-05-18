@@ -1,0 +1,13 @@
+{
+  "name": "legalcode",
+  "version": "0.2.0",
+  "description": "Jurisdiction-aware legal research via the Legalcode MCP server.",
+  "author": {
+    "name": "Fordaemi",
+    "email": "support@legalcode.md"
+  },
+  "homepage": "https://legalcode.md",
+  "repository": "https://github.com/legalcode-md/cli",
+  "license": "MIT",
+  "keywords": ["legal", "law", "research", "case-law", "statutes", "mcp"]
+}

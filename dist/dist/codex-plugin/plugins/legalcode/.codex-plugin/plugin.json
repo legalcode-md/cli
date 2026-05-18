@@ -1,0 +1,33 @@
+{
+  "name": "legalcode",
+  "version": "0.2.0",
+  "description": "Jurisdiction-aware legal research via the Legalcode MCP server.",
+  "author": {
+    "name": "Fordaemi",
+    "url": "https://legalcode.md"
+  },
+  "homepage": "https://legalcode.md",
+  "repository": "https://github.com/legalcode-md/cli",
+  "license": "MIT",
+  "keywords": ["legal", "law", "research", "case-law", "statutes", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Legalcode",
+    "shortDescription": "Search statutes, case law, regulatory guidance, agreements, and patents.",
+    "longDescription": "Legalcode provides jurisdiction-aware legal research over primary sources: statutes, case law, regulatory guidance, international agreements, and global patent documents. The plugin bundles a SKILL with the iterative search workflow plus the remote Legalcode MCP server so Codex can discover facets, run targeted queries, and verify sources without leaving the terminal.",
+    "developerName": "Fordaemi",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://legalcode.md",
+    "privacyPolicyURL": "https://legalcode.md/privacy",
+    "termsOfServiceURL": "https://legalcode.md/terms",
+    "defaultPrompt": [
+      "Find the GDPR article on data subject access requests",
+      "Search Icelandic case law on data protection",
+      "Pull recent EU regulatory guidance on AI"
+    ],
+    "brandColor": "#0F172A",
+    "screenshots": []
+  }
+}

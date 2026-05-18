@@ -1,0 +1,13 @@
+{
+  "name": "counsel",
+  "version": "0.2.0",
+  "description": "COUNSEL legal workflow framework: matter intake, research, analysis, drafting, verification, and review.",
+  "author": {
+    "name": "Fordaemi",
+    "email": "support@legalcode.md"
+  },
+  "homepage": "https://legalcode.md/counsel",
+  "repository": "https://github.com/legalcode-md/cli",
+  "license": "MIT",
+  "keywords": ["legal", "workflow", "counsel", "irac", "creac", "drafting"]
+}

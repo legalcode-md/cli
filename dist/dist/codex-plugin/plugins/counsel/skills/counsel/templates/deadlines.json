@@ -1,0 +1,10 @@
+[
+  {
+    "id": "dl-001",
+    "description": "Deadline description",
+    "date": "YYYY-MM-DD",
+    "source": "Citation or rule establishing the deadline",
+    "status": "pending|warned|met|missed|extended",
+    "warning_sent": false
+  }
+]
