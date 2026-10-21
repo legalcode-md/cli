@@ -1,5 +1,8 @@
 {
   "name": "legalcode",
+  "engines": {
+    "node": "^22.23.4 || ^24.22.1 || ^26.12.1"
+  },
   "version": "0.1.0",
   "description": "Legalcode CLI for installing MCP client configuration, Legalcode agent workflows, and authenticated legal source search.",
   "type": "module",
